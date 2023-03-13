@@ -2,8 +2,8 @@ import pytest
 from assertpy import assert_that
 from selenium.webdriver.common.by import By
 
-from Hybrid_framework.base.base import WebDriverWrapper
-from Hybrid_framework.utilities import data_source
+from base.base import WebDriverWrapper
+from utilities import data_source
 
 
 class TestLogin(WebDriverWrapper):
